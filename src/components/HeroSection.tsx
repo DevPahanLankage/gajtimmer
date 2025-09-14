@@ -19,8 +19,8 @@ export default function HeroSection() {
           <source src="/images/hero_video.mp4" type="video/mp4" />
           {/* Fallback image for browsers that don't support video */}
           <img 
-            src="/images/H00206a8f08fa41a58158ced4968d831ds.jpg" 
-            alt="GaJTimmer Smartwatch"
+            src="/images/1.jpg" 
+            alt="GaJTimmer AK82 Smartwatch"
             className="w-full h-full object-cover object-center"
           />
         </video>
@@ -31,11 +31,11 @@ export default function HeroSection() {
         <div className="max-w-2xl space-y-8">
           {/* Main Headline - Inspired by Gard Pro's "REACH YOUR FULL POTENTIAL" */}
           <div className="space-y-4">
-            <h1 className="text-6xl lg:text-8xl font-bold leading-tight tracking-tight">
+            <h1 className="text-4xl sm:text-6xl lg:text-8xl font-bold leading-tight tracking-tight">
               REACH YOUR
               <span className="block">FULL POTENTIAL.</span>
             </h1>
-            <p className="text-xl lg:text-2xl text-gray-300 font-light leading-relaxed">
+            <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 font-light leading-relaxed">
               The strongest, most advanced smartwatch series designed for tech-savvy professionals and active individuals.
             </p>
           </div>
@@ -61,45 +61,45 @@ export default function HeroSection() {
       {/* Featured Products Banner */}
       <div className="absolute bottom-0 left-0 right-0 z-20">
         <div className="bg-black/80 backdrop-blur-sm border-t border-gray-800">
-          <div className="max-w-7xl mx-auto px-4 py-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="max-w-7xl mx-auto px-4 py-4 sm:py-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">
               {/* Ultra Series */}
-              <div className="flex items-center space-x-4 group cursor-pointer">
-                <div className="w-16 h-16 rounded-full overflow-hidden">
+              <div className="flex items-center space-x-3 sm:space-x-4 group cursor-pointer">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden">
                   <img 
-                    src="/images/H212eb1205b6642989d49382f1e698e5cc.jpg" 
+                    src="/images/3.jpg" 
                     alt="GaJTimmer Ultra Series"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold uppercase tracking-wider">GAJTIMMER ULTRA SERIES</h3>
-                  <p className="text-gray-400">The strongest smartwatch you'll ever own.</p>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-sm sm:text-lg font-bold uppercase tracking-wider truncate">GAJTIMMER ULTRA SERIES</h3>
+                  <p className="text-xs sm:text-sm text-gray-400 truncate">The strongest smartwatch you'll ever own.</p>
                 </div>
                 <Link 
-                  href="/smartwatches?series=ultra" 
-                  className="bg-white text-black px-6 py-2 font-bold uppercase tracking-wider hover:bg-gray-200 transition-colors"
+                  href="/product/ultra-series-1" 
+                  className="bg-white text-black px-3 sm:px-6 py-1 sm:py-2 text-sm font-bold uppercase tracking-wider hover:bg-gray-200 transition-colors"
                 >
                   BUY
                 </Link>
               </div>
               
               {/* Health Series */}
-              <div className="flex items-center space-x-4 group cursor-pointer">
-                <div className="w-16 h-16 rounded-full overflow-hidden">
+              <div className="flex items-center space-x-3 sm:space-x-4 group cursor-pointer">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden">
                   <img 
-                    src="/images/H3f0f78e46da5402f8ee59fd9dc72d397a.jpg_960x960q80.jpg" 
+                    src="/images/5.jpg" 
                     alt="GaJTimmer Health Series"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold uppercase tracking-wider">GAJTIMMER HEALTH SERIES</h3>
-                  <p className="text-gray-400">The most advanced smartwatch for your health.</p>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-sm sm:text-lg font-bold uppercase tracking-wider truncate">GAJTIMMER HEALTH SERIES</h3>
+                  <p className="text-xs sm:text-sm text-gray-400 truncate">The most advanced smartwatch for your health.</p>
                 </div>
                 <Link 
-                  href="/smartwatches?series=health" 
-                  className="bg-white text-black px-6 py-2 font-bold uppercase tracking-wider hover:bg-gray-200 transition-colors"
+                  href="/product/health-series-2" 
+                  className="bg-white text-black px-3 sm:px-6 py-1 sm:py-2 text-sm font-bold uppercase tracking-wider hover:bg-gray-200 transition-colors"
                 >
                   BUY
                 </Link>

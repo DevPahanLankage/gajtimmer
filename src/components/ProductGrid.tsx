@@ -6,7 +6,7 @@ import { Product, products } from '@/lib/products'
 
 export default function ProductGrid() {
   const [sortBy, setSortBy] = useState<'name' | 'price' | 'newest'>('name')
-  const [filterBy, setFilterBy] = useState<'all' | 'health-series' | 'ultra-series' | 'accessories'>('all')
+  const [filterBy, setFilterBy] = useState<'all' | 'health-series' | 'ultra-series'>('all')
 
   const filteredProducts = products
     .filter((product: Product) => {
@@ -38,7 +38,6 @@ export default function ProductGrid() {
             <option value="all">All Products</option>
             <option value="health-series">Health Series</option>
             <option value="ultra-series">Ultra Series</option>
-            <option value="accessories">Accessories</option>
           </select>
         </div>
         
@@ -59,26 +58,27 @@ export default function ProductGrid() {
       {/* Products Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredProducts.map((product: Product) => (
-          <div key={product.id} className="bg-gray-900 rounded-lg overflow-hidden hover:bg-gray-800 transition-colors">
-            {/* Product Image */}
-            <div className="relative aspect-square bg-gray-800 flex items-center justify-center overflow-hidden">
-              {product.isNew && (
-                <div className="absolute top-4 left-4 bg-green-600 text-white px-2 py-1 rounded-full text-xs font-semibold z-10">
-                  New
-                </div>
-              )}
-              {product.originalPrice && (
-                <div className="absolute top-4 right-4 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-semibold z-10">
-                  Sale
-                </div>
-              )}
-              
-              <img 
-                src={product.image} 
-                alt={product.name}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
+          <Link key={product.id} href={`/product/${product.id}`}>
+            <div className="bg-gray-900 rounded-lg overflow-hidden hover:bg-gray-800 transition-colors cursor-pointer">
+              {/* Product Image */}
+              <div className="relative aspect-square bg-gray-800 flex items-center justify-center overflow-hidden">
+                {product.isNew && (
+                  <div className="absolute top-4 left-4 bg-green-600 text-white px-2 py-1 rounded-full text-xs font-semibold z-10">
+                    New
+                  </div>
+                )}
+                {product.originalPrice && (
+                  <div className="absolute top-4 right-4 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-semibold z-10">
+                    Sale
+                  </div>
+                )}
+                
+                <img 
+                  src={product.image} 
+                  alt={product.name}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
 
             {/* Product Info */}
             <div className="p-6">
@@ -134,6 +134,7 @@ export default function ProductGrid() {
               </div>
             </div>
           </div>
+          </Link>
         ))}
       </div>
 

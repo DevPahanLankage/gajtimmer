@@ -35,7 +35,6 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><Link href="/smartwatches" className="text-gray-400 hover:text-white transition-colors">Smartwatches</Link></li>
-              <li><Link href="/accessories" className="text-gray-400 hover:text-white transition-colors">Accessories</Link></li>
               <li><Link href="/support" className="text-gray-400 hover:text-white transition-colors">Support</Link></li>
               <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</Link></li>
             </ul>
@@ -48,7 +47,6 @@ export default function Footer() {
               <li><Link href="/support/help" className="text-gray-400 hover:text-white transition-colors">Help Center</Link></li>
               <li><Link href="/support/warranty" className="text-gray-400 hover:text-white transition-colors">Warranty</Link></li>
               <li><Link href="/support/shipping" className="text-gray-400 hover:text-white transition-colors">Shipping Info</Link></li>
-              <li><Link href="/support/returns" className="text-gray-400 hover:text-white transition-colors">Returns</Link></li>
             </ul>
           </div>
         </div>

@@ -5,8 +5,8 @@ export interface Product {
   originalPrice?: number
   image: string
   images: string[]
-  category: 'health-series' | 'ultra-series' | 'accessories'
-  type: 'smartwatch' | 'loop' | 'screen-protector' | 'charger'
+  category: 'health-series' | 'ultra-series'
+  type: 'smartwatch'
   features: string[]
   specifications: {
     display?: string
@@ -25,42 +25,44 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: 'health-series-1',
-    name: 'GaJTimmer Health Series - Advanced',
-    price: 299,
-    originalPrice: 399,
-    image: '/images/H3f0f78e46da5402f8ee59fd9dc72d397a.jpg_960x960q80.jpg',
-    images: ['/images/H3f0f78e46da5402f8ee59fd9dc72d397a.jpg_960x960q80.jpg', '/images/He2a36091e23541098602b915a845c803a.jpg_960x960q80.jpg'],
-    category: 'health-series',
+    id: 'ultra-series-ak82',
+    name: 'GaJTimmer AK82',
+    price: 199,
+    originalPrice: 249,
+    image: '/images/1.jpg',
+    images: ['/images/1.jpg', '/images/2.jpg'],
+    category: 'ultra-series',
     type: 'smartwatch',
     features: [
-      'Advanced Health Monitoring',
-      'ECG & Blood Oxygen',
+      '1.8" IPS HD Display',
+      'Heart Rate & Blood Oxygen',
       'Sleep Tracking',
-      'Fitness Coaching',
-      '7-Day Battery Life',
-      'Water Resistant'
+      'Call Functions',
+      'AI Voice Assistant',
+      'IP68 Waterproof',
+      'Multi-Language Support',
+      'Remote Control'
     ],
     specifications: {
-      display: '1.9" Always-On Retina Display',
-      battery: 'Up to 7 days typical use',
-      waterResistance: 'WR50 (5 ATM)',
-      compatibility: 'iOS 14.0+, Android 8.0+',
-      material: 'Aluminum Case with Sport Loop',
-      sensors: ['ECG', 'Blood Oxygen', 'Heart Rate', 'Accelerometer', 'Gyroscope'],
-      connectivity: ['Bluetooth 5.0', 'Wi-Fi', 'GPS']
+      display: '1.8" IPS Screen (390x390)',
+      battery: '800mAh Long-lasting',
+      waterResistance: 'IP68 Waterproof',
+      compatibility: 'Android & iOS',
+      material: 'Durable Sports Design',
+      sensors: ['Heart Rate', 'Blood Oxygen', 'Sleep Monitor'],
+      connectivity: ['Bluetooth 5.3', 'Call Functions']
     },
     inStock: true,
-    isNew: false,
+    isNew: true,
     isFeatured: true,
-    description: 'The most advanced health monitoring smartwatch with comprehensive fitness tracking and all-day battery life.'
+    description: 'The GaJTimmer AK82 Smart Watch features a 1.8-inch IPS screen with a resolution of 390*390, powered by a 800mAh battery and BT5.3 for seamless connectivity. It supports heart rate, blood oxygen, sleep tracking, call functions, and multi-language options including English, French, and Spanish. With an IP68 waterproof rating, it is designed for outdoor sports and daily use, offering durability and advanced functionalities like AI voice assistant and remote control.'
   },
   {
     id: 'health-series-2',
     name: 'GaJTimmer Health Series - Essential',
     price: 199,
-    image: '/images/H06a6de17b65e4dc2a214a568d334f269l.jpg_960x960q80.jpg',
-    images: ['/images/H06a6de17b65e4dc2a214a568d334f269l.jpg_960x960q80.jpg'],
+    image: '/images/5.jpg',
+    images: ['/images/5.jpg', '/images/6.jpg'],
     category: 'health-series',
     type: 'smartwatch',
     features: [
@@ -89,8 +91,8 @@ export const products: Product[] = [
     id: 'ultra-series-1',
     name: 'GaJTimmer Ultra Series - Titanium',
     price: 599,
-    image: '/images/H212eb1205b6642989d49382f1e698e5cc.jpg',
-    images: ['/images/H212eb1205b6642989d49382f1e698e5cc.jpg', '/images/H12d86414dfc54ffd90cce04f4887c2fc1.png_960x960q80.png'],
+    image: '/images/3.jpg',
+    images: ['/images/3.jpg', '/images/4.png'],
     category: 'ultra-series',
     type: 'smartwatch',
     features: [
@@ -119,8 +121,8 @@ export const products: Product[] = [
     id: 'ultra-series-2',
     name: 'GaJTimmer Ultra Series - Sport',
     price: 399,
-    image: '/images/H48100b721dcc4a609809c35f6fc19fdce.jpg_960x960q80.jpg',
-    images: ['/images/H48100b721dcc4a609809c35f6fc19fdce.jpg_960x960q80.jpg', '/images/H58d93bb0ef7f43048f69230de48edc5ei.jpg_960x960q80.jpg'],
+    image: '/images/7.jpg',
+    images: ['/images/7.jpg', '/images/8.jpg'],
     category: 'ultra-series',
     type: 'smartwatch',
     features: [
@@ -144,78 +146,6 @@ export const products: Product[] = [
     isNew: false,
     isFeatured: true,
     description: 'Built for adventure with rugged design and extended battery life for outdoor enthusiasts.'
-  },
-  {
-    id: 'loop-sport-1',
-    name: 'Sport Loop - Ocean Blue',
-    price: 49,
-    image: '/images/Ha710705f99354c32b386bf6d18a4e44eW.jpg_960x960q80.jpg',
-    images: ['/images/Ha710705f99354c32b386bf6d18a4e44eW.jpg_960x960q80.jpg'],
-    category: 'accessories',
-    type: 'loop',
-    features: [
-      'Breathable Design',
-      'Adjustable Fit',
-      'Machine Washable',
-      'Sweat Resistant',
-      'Quick Release'
-    ],
-    specifications: {
-      material: 'Nylon Sport Loop',
-      compatibility: 'All GaJTimmer Models',
-    },
-    inStock: true,
-    isNew: false,
-    isFeatured: false,
-    description: 'Comfortable and breathable sport loop perfect for workouts and daily wear.'
-  },
-  {
-    id: 'screen-protector-1',
-    name: 'Tempered Glass Screen Protector',
-    price: 29,
-    image: '/images/H0a0acccceadb464a97cc22d1c316e8127.jpg_960x960q80.jpg',
-    images: ['/images/H0a0acccceadb464a97cc22d1c316e8127.jpg_960x960q80.jpg'],
-    category: 'accessories',
-    type: 'screen-protector',
-    features: [
-      '9H Hardness',
-      'Crystal Clear',
-      'Easy Installation',
-      'Bubble-Free',
-      'Case Friendly'
-    ],
-    specifications: {
-      material: 'Tempered Glass',
-      compatibility: 'Health & Ultra Series',
-    },
-    inStock: true,
-    isNew: false,
-    isFeatured: false,
-    description: 'Premium tempered glass protection for your smartwatch display.'
-  },
-  {
-    id: 'charger-wireless-1',
-    name: 'Wireless Charging Dock',
-    price: 79,
-    image: '/images/Hd5e40e0b28924d8bbbb9ce0ae2208d79B.jpg',
-    images: ['/images/Hd5e40e0b28924d8bbbb9ce0ae2208d79B.jpg'],
-    category: 'accessories',
-    type: 'charger',
-    features: [
-      'Fast Wireless Charging',
-      'LED Status Indicator',
-      'Non-Slip Base',
-      'Compact Design',
-      'Universal Compatibility'
-    ],
-    specifications: {
-      material: 'Aluminum and Silicone',
-      compatibility: 'All GaJTimmer Models',
-    },
-    inStock: true,
-    isNew: true,
-    isFeatured: false,
-    description: 'Elegant wireless charging solution for your GaJTimmer smartwatch.'
   }
 ]
 

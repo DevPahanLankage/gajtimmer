@@ -20,12 +20,6 @@ export default function Header() {
             <Link href="/smartwatches" className="text-white hover:text-gray-300 transition-colors font-medium uppercase tracking-wide text-sm">
               SMARTWATCHES
             </Link>
-            <Link href="/accessories" className="text-white hover:text-gray-300 transition-colors font-medium uppercase tracking-wide text-sm">
-              LOOPS
-            </Link>
-            <Link href="/accessories" className="text-white hover:text-gray-300 transition-colors font-medium uppercase tracking-wide text-sm">
-              ACCESSORIES
-            </Link>
             <Link href="/support" className="text-white hover:text-gray-300 transition-colors font-medium uppercase tracking-wide text-sm">
               SUPPORT
             </Link>
@@ -37,9 +31,6 @@ export default function Header() {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
-            </Link>
-            <Link href="/account" className="text-white hover:text-gray-300 transition-colors font-medium uppercase tracking-wide text-sm">
-              LOG IN
             </Link>
             <Link href="/cart" className="text-white hover:text-gray-300 transition-colors">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -76,20 +67,6 @@ export default function Header() {
                 SMARTWATCHES
               </Link>
               <Link 
-                href="/accessories" 
-                className="text-white hover:text-gray-300 transition-colors font-medium uppercase tracking-wide text-sm"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                LOOPS
-              </Link>
-              <Link 
-                href="/accessories" 
-                className="text-white hover:text-gray-300 transition-colors font-medium uppercase tracking-wide text-sm"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                ACCESSORIES
-              </Link>
-              <Link 
                 href="/support" 
                 className="text-white hover:text-gray-300 transition-colors font-medium uppercase tracking-wide text-sm"
                 onClick={() => setIsMenuOpen(false)}
@@ -102,13 +79,6 @@ export default function Header() {
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
-                </Link>
-                <Link 
-                  href="/account" 
-                  className="text-white hover:text-gray-300 transition-colors font-medium uppercase tracking-wide text-sm"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  LOG IN
                 </Link>
                 <Link href="/cart" className="text-white hover:text-gray-300 transition-colors">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
