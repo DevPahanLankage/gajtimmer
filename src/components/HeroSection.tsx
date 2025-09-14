@@ -5,17 +5,25 @@ import Link from 'next/link'
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen bg-black text-white overflow-hidden">
-      {/* Background Image/Video Area */}
+      {/* Background Video */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent z-10"></div>
-        {/* Hero background with actual product image */}
-        <div className="w-full h-full relative">
+        {/* Hero background video */}
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/images/hero_video.mp4" type="video/mp4" />
+          {/* Fallback image for browsers that don't support video */}
           <img 
             src="/images/H00206a8f08fa41a58158ced4968d831ds.jpg" 
             alt="GaJTimmer Smartwatch"
             className="w-full h-full object-cover object-center"
           />
-        </div>
+        </video>
       </div>
       
       {/* Content */}
