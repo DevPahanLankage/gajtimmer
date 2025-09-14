@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-white uppercase tracking-wider">
-            GARD PRO
+            GAJTIMMER
           </Link>
 
           {/* Desktop Navigation */}

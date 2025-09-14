@@ -29,7 +29,7 @@ export default function CallToAction() {
               RECEIVE THE BEST SERVICE AND SUPPORT
             </h3>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-4xl">
-              Thanks to Gard Pro's proficiency in developing hardware, operating systems, and 
+              Thanks to GaJTimmer's proficiency in developing hardware, operating systems, and 
               applications, our specialists possess an in-depth knowledge of the integrated 
               system. Consequently, we can typically address and resolve issues in a single 
               discussion.
@@ -56,7 +56,7 @@ export default function CallToAction() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4 uppercase tracking-wide">CONTACT US</h4>
               <div className="space-y-2 text-gray-300">
-                <p>Email: <Link href="mailto:support@gardpro.com" className="text-white hover:text-gray-300">support@gardpro.com</Link></p>
+                <p>Email: <Link href="mailto:support@gajtimmer.com" className="text-white hover:text-gray-300">support@gajtimmer.com</Link></p>
                 <p className="text-sm">
                   Telephone customer service is open Monday through Friday from 12 P.M. to 5 P.M. (GMT-5)
                 </p>

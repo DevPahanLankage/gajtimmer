@@ -61,21 +61,23 @@ export default function ProductGrid() {
         {filteredProducts.map((product: Product) => (
           <div key={product.id} className="bg-gray-900 rounded-lg overflow-hidden hover:bg-gray-800 transition-colors">
             {/* Product Image */}
-            <div className="relative aspect-square bg-gray-800 flex items-center justify-center">
+            <div className="relative aspect-square bg-gray-800 flex items-center justify-center overflow-hidden">
               {product.isNew && (
-                <div className="absolute top-4 left-4 bg-green-600 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                <div className="absolute top-4 left-4 bg-green-600 text-white px-2 py-1 rounded-full text-xs font-semibold z-10">
                   New
                 </div>
               )}
               {product.originalPrice && (
-                <div className="absolute top-4 right-4 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                <div className="absolute top-4 right-4 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-semibold z-10">
                   Sale
                 </div>
               )}
               
-              <div className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-800 flex items-center justify-center">
-                <span className="text-4xl">⌚</span>
-              </div>
+              <img 
+                src={product.image} 
+                alt={product.name}
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
             </div>
 
             {/* Product Info */}

@@ -12,11 +12,13 @@ export default function ProductHighlights() {
           <div className="relative group cursor-pointer">
             <Link href="/smartwatches">
               <div className="relative h-96 bg-gradient-to-br from-gray-900 to-gray-800 rounded-none overflow-hidden">
-                {/* Background Image Placeholder */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-8xl opacity-30">⌚</div>
-                </div>
+                {/* Background Image */}
+                <img 
+                  src="/images/H0a0acccceadb464a97cc22d1c316e8127.jpg_960x960q80.jpg" 
+                  alt="GaJTimmer Smartwatches"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40"></div>
                 
                 {/* Content Overlay */}
                 <div className="absolute inset-0 bg-black/40 flex items-end">
@@ -36,11 +38,13 @@ export default function ProductHighlights() {
           <div className="relative group cursor-pointer">
             <Link href="/accessories">
               <div className="relative h-96 bg-gradient-to-br from-gray-900 to-gray-800 rounded-none overflow-hidden">
-                {/* Background Image Placeholder */}
-                <div className="absolute inset-0 bg-gradient-to-br from-green-900/20 to-blue-900/20"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-8xl opacity-30">🔗</div>
-                </div>
+                {/* Background Image */}
+                <img 
+                  src="/images/Ha710705f99354c32b386bf6d18a4e44eW.jpg_960x960q80.jpg" 
+                  alt="GaJTimmer Accessories"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40"></div>
                 
                 {/* Content Overlay */}
                 <div className="absolute inset-0 bg-black/40 flex items-end">
@@ -70,10 +74,12 @@ export default function ProductHighlights() {
           <div className="relative group cursor-pointer">
             <Link href="/smartwatches?activity=swimming">
               <div className="relative h-80 bg-gradient-to-br from-blue-900 to-cyan-900 rounded-none overflow-hidden">
-                <div className="absolute inset-0 bg-black/30"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-6xl">🏊</div>
-                </div>
+                <img 
+                  src="/images/H06a6de17b65e4dc2a214a568d334f269l.jpg_960x960q80.jpg" 
+                  alt="Swimming Smartwatch"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/50"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <h3 className="text-2xl font-bold uppercase tracking-wider mb-2">SWIMMING</h3>
                   <span className="text-sm uppercase tracking-wider border-b border-white pb-1">SEE MORE</span>
@@ -86,10 +92,12 @@ export default function ProductHighlights() {
           <div className="relative group cursor-pointer">
             <Link href="/smartwatches?activity=multisport">
               <div className="relative h-80 bg-gradient-to-br from-green-900 to-emerald-900 rounded-none overflow-hidden">
-                <div className="absolute inset-0 bg-black/30"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-6xl">🏃</div>
-                </div>
+                <img 
+                  src="/images/H48100b721dcc4a609809c35f6fc19fdce.jpg_960x960q80.jpg" 
+                  alt="Multi Sport Smartwatch"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/50"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <h3 className="text-2xl font-bold uppercase tracking-wider mb-2">MULTI SPORT</h3>
                   <span className="text-sm uppercase tracking-wider border-b border-white pb-1">SEE MORE</span>
@@ -102,10 +110,12 @@ export default function ProductHighlights() {
           <div className="relative group cursor-pointer">
             <Link href="/smartwatches?activity=professional">
               <div className="relative h-80 bg-gradient-to-br from-gray-800 to-gray-900 rounded-none overflow-hidden">
-                <div className="absolute inset-0 bg-black/30"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-6xl">💼</div>
-                </div>
+                <img 
+                  src="/images/H58d93bb0ef7f43048f69230de48edc5ei.jpg_960x960q80.jpg" 
+                  alt="Professional Smartwatch"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/50"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <h3 className="text-2xl font-bold uppercase tracking-wider mb-2">PROFESSIONAL</h3>
                   <span className="text-sm uppercase tracking-wider border-b border-white pb-1">SEE MORE</span>
@@ -118,10 +128,12 @@ export default function ProductHighlights() {
           <div className="relative group cursor-pointer">
             <Link href="/smartwatches?activity=outdoor">
               <div className="relative h-80 bg-gradient-to-br from-orange-900 to-red-900 rounded-none overflow-hidden">
-                <div className="absolute inset-0 bg-black/30"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-6xl">🏔️</div>
-                </div>
+                <img 
+                  src="/images/Hd5e40e0b28924d8bbbb9ce0ae2208d79B.jpg" 
+                  alt="Outdoor Smartwatch"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/50"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <h3 className="text-2xl font-bold uppercase tracking-wider mb-2">OUTDOOR</h3>
                   <span className="text-sm uppercase tracking-wider border-b border-white pb-1">SEE MORE</span>
@@ -137,10 +149,12 @@ export default function ProductHighlights() {
           <div className="relative group cursor-pointer">
             <Link href="/smartwatches?series=health">
               <div className="relative h-96 bg-gradient-to-br from-green-900 to-emerald-900 rounded-none overflow-hidden">
-                <div className="absolute inset-0 bg-black/40"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-8xl opacity-40">❤️</div>
-                </div>
+                <img 
+                  src="/images/He2a36091e23541098602b915a845c803a.jpg_960x960q80.jpg" 
+                  alt="GaJTimmer Health Series"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/50"></div>
                 <div className="absolute inset-0 flex items-center">
                   <div className="p-8 text-white">
                     <h3 className="text-5xl font-bold uppercase tracking-wider mb-4">HEALTH SERIES</h3>
@@ -158,10 +172,12 @@ export default function ProductHighlights() {
           <div className="relative group cursor-pointer">
             <Link href="/smartwatches?series=ultra">
               <div className="relative h-96 bg-gradient-to-br from-gray-900 to-black rounded-none overflow-hidden">
-                <div className="absolute inset-0 bg-black/40"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-8xl opacity-40">⚡</div>
-                </div>
+                <img 
+                  src="/images/H12d86414dfc54ffd90cce04f4887c2fc1.png_960x960q80.png" 
+                  alt="GaJTimmer Ultra Series"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/50"></div>
                 <div className="absolute inset-0 flex items-center">
                   <div className="p-8 text-white">
                     <h3 className="text-5xl font-bold uppercase tracking-wider mb-4">ULTRA SERIES</h3>

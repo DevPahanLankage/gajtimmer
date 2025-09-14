@@ -26,11 +26,11 @@ export interface Product {
 export const products: Product[] = [
   {
     id: 'health-series-1',
-    name: 'Gard Pro Health Series - Advanced',
+    name: 'GaJTimmer Health Series - Advanced',
     price: 299,
     originalPrice: 399,
-    image: '/images/health-advanced.jpg',
-    images: ['/images/health-advanced.jpg', '/images/health-advanced-2.jpg'],
+    image: '/images/H3f0f78e46da5402f8ee59fd9dc72d397a.jpg_960x960q80.jpg',
+    images: ['/images/H3f0f78e46da5402f8ee59fd9dc72d397a.jpg_960x960q80.jpg', '/images/He2a36091e23541098602b915a845c803a.jpg_960x960q80.jpg'],
     category: 'health-series',
     type: 'smartwatch',
     features: [
@@ -57,10 +57,10 @@ export const products: Product[] = [
   },
   {
     id: 'health-series-2',
-    name: 'Gard Pro Health Series - Essential',
+    name: 'GaJTimmer Health Series - Essential',
     price: 199,
-    image: '/images/health-essential.jpg',
-    images: ['/images/health-essential.jpg'],
+    image: '/images/H06a6de17b65e4dc2a214a568d334f269l.jpg_960x960q80.jpg',
+    images: ['/images/H06a6de17b65e4dc2a214a568d334f269l.jpg_960x960q80.jpg'],
     category: 'health-series',
     type: 'smartwatch',
     features: [
@@ -87,10 +87,10 @@ export const products: Product[] = [
   },
   {
     id: 'ultra-series-1',
-    name: 'Gard Pro Ultra Series - Titanium',
+    name: 'GaJTimmer Ultra Series - Titanium',
     price: 599,
-    image: '/images/ultra-titanium.jpg',
-    images: ['/images/ultra-titanium.jpg', '/images/ultra-titanium-2.jpg'],
+    image: '/images/H212eb1205b6642989d49382f1e698e5cc.jpg',
+    images: ['/images/H212eb1205b6642989d49382f1e698e5cc.jpg', '/images/H12d86414dfc54ffd90cce04f4887c2fc1.png_960x960q80.png'],
     category: 'ultra-series',
     type: 'smartwatch',
     features: [
@@ -116,11 +116,41 @@ export const products: Product[] = [
     description: 'The ultimate smartwatch for extreme conditions with titanium construction and advanced sensors.'
   },
   {
+    id: 'ultra-series-2',
+    name: 'GaJTimmer Ultra Series - Sport',
+    price: 399,
+    image: '/images/H48100b721dcc4a609809c35f6fc19fdce.jpg_960x960q80.jpg',
+    images: ['/images/H48100b721dcc4a609809c35f6fc19fdce.jpg_960x960q80.jpg', '/images/H58d93bb0ef7f43048f69230de48edc5ei.jpg_960x960q80.jpg'],
+    category: 'ultra-series',
+    type: 'smartwatch',
+    features: [
+      'Rugged Design',
+      'Multi-Sport Tracking',
+      'Extended GPS',
+      '10-Day Battery Life',
+      'Water Resistant',
+      'Military Grade Durability'
+    ],
+    specifications: {
+      display: '1.8" Tough Display',
+      battery: 'Up to 10 days typical use',
+      waterResistance: 'WR50 (5 ATM)',
+      compatibility: 'iOS 13.0+, Android 8.0+',
+      material: 'Reinforced Polymer Case',
+      sensors: ['Heart Rate', 'GPS', 'Accelerometer', 'Barometer'],
+      connectivity: ['Bluetooth 5.0', 'GPS']
+    },
+    inStock: true,
+    isNew: false,
+    isFeatured: true,
+    description: 'Built for adventure with rugged design and extended battery life for outdoor enthusiasts.'
+  },
+  {
     id: 'loop-sport-1',
     name: 'Sport Loop - Ocean Blue',
     price: 49,
-    image: '/images/loop-ocean-blue.jpg',
-    images: ['/images/loop-ocean-blue.jpg'],
+    image: '/images/Ha710705f99354c32b386bf6d18a4e44eW.jpg_960x960q80.jpg',
+    images: ['/images/Ha710705f99354c32b386bf6d18a4e44eW.jpg_960x960q80.jpg'],
     category: 'accessories',
     type: 'loop',
     features: [
@@ -132,7 +162,7 @@ export const products: Product[] = [
     ],
     specifications: {
       material: 'Nylon Sport Loop',
-      compatibility: 'All Gard Pro Models',
+      compatibility: 'All GaJTimmer Models',
     },
     inStock: true,
     isNew: false,
@@ -143,8 +173,8 @@ export const products: Product[] = [
     id: 'screen-protector-1',
     name: 'Tempered Glass Screen Protector',
     price: 29,
-    image: '/images/screen-protector.jpg',
-    images: ['/images/screen-protector.jpg'],
+    image: '/images/H0a0acccceadb464a97cc22d1c316e8127.jpg_960x960q80.jpg',
+    images: ['/images/H0a0acccceadb464a97cc22d1c316e8127.jpg_960x960q80.jpg'],
     category: 'accessories',
     type: 'screen-protector',
     features: [
@@ -167,8 +197,8 @@ export const products: Product[] = [
     id: 'charger-wireless-1',
     name: 'Wireless Charging Dock',
     price: 79,
-    image: '/images/wireless-charger.jpg',
-    images: ['/images/wireless-charger.jpg'],
+    image: '/images/Hd5e40e0b28924d8bbbb9ce0ae2208d79B.jpg',
+    images: ['/images/Hd5e40e0b28924d8bbbb9ce0ae2208d79B.jpg'],
     category: 'accessories',
     type: 'charger',
     features: [
@@ -180,12 +210,12 @@ export const products: Product[] = [
     ],
     specifications: {
       material: 'Aluminum and Silicone',
-      compatibility: 'All Gard Pro Models',
+      compatibility: 'All GaJTimmer Models',
     },
     inStock: true,
     isNew: true,
     isFeatured: false,
-    description: 'Elegant wireless charging solution for your Gard Pro smartwatch.'
+    description: 'Elegant wireless charging solution for your GaJTimmer smartwatch.'
   }
 ]
 
