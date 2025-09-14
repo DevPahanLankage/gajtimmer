@@ -4,23 +4,29 @@ import Link from 'next/link'
 
 export default function PromotionalBanner() {
   return (
-    <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-4">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left">
+    <section className="bg-white text-black py-4">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex flex-col md:flex-row items-center justify-center md:justify-between text-center md:text-left">
+          {/* Left side - promotional message */}
           <div className="mb-2 md:mb-0">
-            <span className="text-white font-semibold text-lg">
-              🎉 Limited Time Offer: Get 25% off on all Health Series smartwatches!
+            <span className="text-black font-bold text-lg uppercase tracking-wider">
+              30-DAY MONEY BACK GUARANTEE
             </span>
           </div>
-          <div className="flex items-center space-x-4">
-            <span className="text-white/80 text-sm">
-              Use code: HEALTH25
+          
+          {/* Separator */}
+          <div className="hidden md:block w-px h-6 bg-gray-300 mx-8"></div>
+          
+          {/* Right side - additional offer */}
+          <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
+            <span className="text-black font-medium">
+              FREE SHIPPING ON ORDERS OVER $299
             </span>
             <Link 
-              href="/smartwatches/health-series" 
-              className="bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+              href="/smartwatches" 
+              className="bg-black text-white px-6 py-2 font-bold uppercase tracking-wider hover:bg-gray-800 transition-colors"
             >
-              Shop Now
+              SHOP NOW
             </Link>
           </div>
         </div>
