@@ -49,7 +49,7 @@ export default function ProductHighlights() {
             <Link href="/smartwatches?activity=swimming">
               <div className="relative h-80 bg-gradient-to-br from-blue-900 to-cyan-900 rounded-none overflow-hidden">
                 <img 
-                  src="/images/6.jpg" 
+                  src="/images/gtqx11-sportstar/6.jpg" 
                   alt="Swimming Smartwatch"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -67,7 +67,7 @@ export default function ProductHighlights() {
             <Link href="/smartwatches?activity=multisport">
               <div className="relative h-80 bg-gradient-to-br from-green-900 to-emerald-900 rounded-none overflow-hidden">
                 <img 
-                  src="/images/7.jpg" 
+                  src="/images/gtqx11-sportstar/7.jpg" 
                   alt="Multi Sport Smartwatch"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -85,7 +85,7 @@ export default function ProductHighlights() {
             <Link href="/smartwatches?activity=professional">
               <div className="relative h-80 bg-gradient-to-br from-gray-800 to-gray-900 rounded-none overflow-hidden">
                 <img 
-                  src="/images/8.jpg" 
+                  src="/images/gtk63-ironman/8.jpg" 
                   alt="Professional Smartwatch"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -103,7 +103,7 @@ export default function ProductHighlights() {
             <Link href="/smartwatches?activity=outdoor">
               <div className="relative h-80 bg-gradient-to-br from-orange-900 to-red-900 rounded-none overflow-hidden">
                 <img 
-                  src="/images/9.jpg" 
+                  src="/images/gtk63-ironman/9.jpg" 
                   alt="Outdoor Smartwatch"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -124,7 +124,7 @@ export default function ProductHighlights() {
             <Link href="/smartwatches?series=health">
               <div className="relative h-96 bg-gradient-to-br from-green-900 to-emerald-900 rounded-none overflow-hidden">
                 <img 
-                  src="/images/10.jpg" 
+                  src="/images/gtqx11-sportstar/10.jpg" 
                   alt="GaJTimmer Health Series"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -147,7 +147,7 @@ export default function ProductHighlights() {
             <Link href="/smartwatches?series=ultra">
               <div className="relative h-96 bg-gradient-to-br from-gray-900 to-black rounded-none overflow-hidden">
                 <img 
-                  src="/images/11.jpg" 
+                  src="/images/gtak82-huntsman/11.jpg" 
                   alt="GaJTimmer Ultra Series"
                   className="absolute inset-0 w-full h-full object-cover"
                 />

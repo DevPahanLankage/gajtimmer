@@ -63,42 +63,42 @@ export default function HeroSection() {
         <div className="bg-black/80 backdrop-blur-sm border-t border-gray-800">
           <div className="max-w-7xl mx-auto px-4 py-4 sm:py-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">
-              {/* Ultra Series */}
+              {/* GTAK82 Huntsman */}
               <div className="flex items-center space-x-3 sm:space-x-4 group cursor-pointer">
                 <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden">
                   <img 
-                    src="/images/3.jpg" 
-                    alt="GaJTimmer Ultra Series"
+                    src="/images/gtak82-huntsman/1.jpg" 
+                    alt="GTAK82 Huntsman"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="text-sm sm:text-lg font-bold uppercase tracking-wider truncate">GAJTIMMER ULTRA SERIES</h3>
-                  <p className="text-xs sm:text-sm text-gray-400 truncate">The strongest smartwatch you'll ever own.</p>
+                  <h3 className="text-sm sm:text-lg font-bold uppercase tracking-wider truncate">GTAK82 HUNTSMAN</h3>
+                  <p className="text-xs sm:text-sm text-gray-400 truncate">Advanced smart watch with AI voice assistant.</p>
                 </div>
                 <Link 
-                  href="/product/ultra-series-1" 
+                  href="/product/gtak82-huntsman" 
                   className="bg-white text-black px-3 sm:px-6 py-1 sm:py-2 text-sm font-bold uppercase tracking-wider hover:bg-gray-200 transition-colors"
                 >
                   BUY
                 </Link>
               </div>
               
-              {/* Health Series */}
+              {/* GTK63 Iron Man */}
               <div className="flex items-center space-x-3 sm:space-x-4 group cursor-pointer">
                 <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden">
                   <img 
-                    src="/images/5.jpg" 
-                    alt="GaJTimmer Health Series"
+                    src="/images/gtk63-ironman/3.jpg" 
+                    alt="GTK63 Iron Man"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="text-sm sm:text-lg font-bold uppercase tracking-wider truncate">GAJTIMMER HEALTH SERIES</h3>
-                  <p className="text-xs sm:text-sm text-gray-400 truncate">The most advanced smartwatch for your health.</p>
+                  <h3 className="text-sm sm:text-lg font-bold uppercase tracking-wider truncate">GTK63 IRON MAN</h3>
+                  <p className="text-xs sm:text-sm text-gray-400 truncate">Premium design with advanced health monitoring.</p>
                 </div>
                 <Link 
-                  href="/product/health-series-2" 
+                  href="/product/gtk63-ironman" 
                   className="bg-white text-black px-3 sm:px-6 py-1 sm:py-2 text-sm font-bold uppercase tracking-wider hover:bg-gray-200 transition-colors"
                 >
                   BUY
